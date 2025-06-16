@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eduard Alexandru Musat - Backend & <strong>DevOps</strong></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container animate-fade-in">
+    <h1>👨‍💻 Eduard Alexandru Musat</h1>
+    <p class="contact">
+      📍 Castellón de la Plana, España<br>
+      📧 <a href="mailto:musateduardalexandru@gmail.com">musateduardalexandru@gmail.com</a><br>
+      📄 <a href="CV_Alexandru_Musat_2025.pdf" target="_blank">Descargar CV en PDF</a>
+    </p>
+
+    <section>
+      <h2>🎯 Perfil Profesional</h2>
+      <p><strong>Desarrollador Backend & <strong>DevOps</strong></strong> con experiencia en sistemas empresariales robustos, seguros y escalables. Manejo profesional de <strong>Spring Boot</strong>, <strong>Symfony</strong>, <strong>Docker</strong>, <strong>AWS</strong>, arquitectura hexagonal, programación reactiva y buenas prácticas <strong>DevOps</strong>. Experiencia en despliegues reales, integración continua, documentación técnica automatizada y sistemas de monitoreo.</p>
+    </section>
+
+    <section>
+      <h2>🧰 Stack Técnico</h2>
+      <ul>
+        <li><strong>Backend:</strong> Java 21 (<strong>Spring Boot</strong> 3.4), PHP 8 (<strong>Symfony</strong> 6), JPA/Hibernate, <strong>JWT</strong>, MySQL, PostgreSQL</li>
+        <li><strong><strong>DevOps</strong>:</strong> <strong>Docker</strong> (multi-contenedor), <strong>AWS</strong> EC2, <strong>GitLab <strong>CI/CD</strong></strong>, GitHub Actions, bash scripting</li>
+        <li><strong>Testing y Docs:</strong> JUnit, Mockito, <strong>Swagger/OpenAPI</strong>, <strong>JavaDoc</strong>, ERD, documentación automatizada</li>
+        <li><strong>Frontend básico:</strong> HTML, CSS, Bootstrap, Thymeleaf, AJAX, jQuery</li>
+        <li><strong>Otros:</strong> Supabase, phpMyAdmin, Gradle, Linux server</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🚀 Uptime Borealos – Plataforma de Monitorización Web</h2>
+      <p><strong><strong>Repositorio:</strong></strong> <a href="https://git.borealos.com/borealos/uptimerobotweb-back">GitLab</a></p>
+      <p><strong><strong>Descripción:</strong></strong> Sistema profesional que monitoriza páginas web detectando caídas, redirecciones, vencimiento de SSL/dominio y genera incidencias en tiempo real.</p>
+      <ul>
+        <li>Arquitectura hexagonal con capas desacopladas: controller, service, domain, repository, config</li>
+        <li>Registro de estados HTTP con timestamp y análisis UP/DOWN por código</li>
+        <li>Cálculo de incidencias en memoria (no persistidas) a partir de cambios de estado</li>
+        <li>Programación periódica con `@Scheduled` y tareas dinámicas según configuración del monitor</li>
+        <li>Validación de acceso multiempresa con `SecurityHelper` y <strong>JWT</strong></li>
+        <li>Soporte para múltiples emails asociados a cada monitor</li>
+        <li>Envío de notificaciones automáticas al cambiar el estado vía `borealos-email-component`</li>
+        <li>Generación y despliegue automático de documentación Swagger y <strong>JavaDoc</strong> en GitLab Pages</li>
+        <li>Deploy en <strong>AWS</strong> EC2, dockerizado y con <strong>CI/CD</strong> personalizado vía GitLab</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏥 HAdmin2 – Sistema Hospitalario Web</h2>
+      <p><strong><strong>Descripción:</strong></strong> Aplicación completa de gestión médica con funcionalidades para pacientes, médicos y administradores. Construida con arquitectura modular y seguridad avanzada.</p>
+      <ul>
+        <li>Autenticación con <strong>JWT</strong> y asignación de roles dinámicos (PACIENTE, MÉDICO, ADMIN)</li>
+        <li>Gestión de usuarios y perfiles médicos/pacientes vinculados a `UserEntity`</li>
+        <li>Agenda médica inteligente: permite reservar citas solo si hay disponibilidad dentro del horario</li>
+        <li>Validación automática de huecos disponibles hasta 2 meses en adelante</li>
+        <li>Frontend Angular con diseño limpio y navegación SPA</li>
+        <li>Persistencia en MySQL con relaciones JPA complejas y entidades normalizadas</li>
+        <li><strong>CI/CD</strong> y despliegue mediante contenedores <strong>Docker</strong></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📷 <strong>Symfony</strong> Instagram Clone</h2>
+      <p><strong><strong>Descripción:</strong></strong> Red social clon de Instagram desarrollada con <strong>Symfony</strong> y Twig. Implementa seguidores, publicaciones, likes, comentarios y stories.</p>
+      <ul>
+        <li>Relaciones entre usuarios mediante tabla `user_user` para seguidores y seguidos</li>
+        <li>Interacción AJAX para seguir/dejar de seguir, like y comentar sin recargar</li>
+        <li>Gestión de stories en frontend con plantillas Twig y controladores <strong>Symfony</strong></li>
+        <li>Autenticación por sesiones, subida de imágenes y validaciones personalizadas</li>
+        <li>Base de datos en Supabase y administración con phpMyAdmin</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📚 Formación Académica</h2>
+      <p><strong>CFGS Desarrollo de Aplicaciones Web (DAW)</strong><br>IES El Caminás, Castellón (2023 – 2025)</p>
+    </section>
+
+    <section>
+      <h2>🌍 Idiomas</h2>
+      <ul>
+        <li>Español: Nativo</li>
+        <li>Rumano: Nativo</li>
+        <li>Inglés: Técnico avanzado (documentación, cursos, comunicación técnica)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Certificaciones</h2>
+      <ul>
+        <li><strong>Docker</strong> para <strong>DevOps</strong> – Udemy</li>
+        <li><strong>Spring Boot</strong> REST y <strong>JWT</strong> – OpenWebinars</li>
+        <li><strong>AWS</strong> Fundamentals – <strong>AWS</strong> Training</li>
+        <li>Git + GitHub – Platzi</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧭 Contacto</h2>
+      <p>¿Buscas un desarrollador backend con enfoque profesional, seguridad avanzada y despliegues modernos? Estoy abierto a oportunidades.</p>
+      <p><strong>Email:</strong> <a href="mailto:musateduardalexandru@gmail.com">musateduardalexandru@gmail.com</a></p>
+      <p>Más información en el CV adjunto o en mi <a href="https://github.com/Alexillo98">GitHub</a>.</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
